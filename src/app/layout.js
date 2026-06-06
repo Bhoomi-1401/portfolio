@@ -12,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Himanshu Sangwan",
-  description: "Himanshu Sangwan is a full stack developer.",
+  title: "Bhoomi Thakur",
+  description: "Bhoomi Thakur is an AI Engineer, Data Analyst and Machine Learning enthusiast.",
 };
 
 export const viewport = {

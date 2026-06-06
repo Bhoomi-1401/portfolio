@@ -95,7 +95,7 @@ const Hero = memo(function Hero() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-[60px] lg:text-[110px] block"
             >
-              Himanshu
+              Bhoomi
             </motion.span>
           </motion.h1>
         </div>
@@ -111,8 +111,8 @@ const Hero = memo(function Hero() {
           ref={slider}
           className="slider overflow-hidden text-secondary text-[70px] lg:text-[200px]"
         >
-          <p ref={firstText}>Full-Stack Developer.</p>
-          <p ref={secondText}>Full-Stack Developer.</p>
+          <p ref={firstText}>AI Engineer.</p>
+<p ref={secondText}>AI Engineer.</p>
         </div>
       </motion.div>
 

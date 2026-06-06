@@ -66,13 +66,9 @@ const Navbar = memo(function Navbar() {
           className="flex items-center gap-2"
           onClick={handleLogoClick}
         >
-          <Image
-            src={initialLetterIcon}
-            alt="logo"
-            className="w-10 h-10 object-contain"
-          />
-          <p className="text-white text-[29px] font-bold cursor-pointer flex relative right-2 ">
-            {remainingLetters} &nbsp;
+          
+          <p className="text-white text-[29px] font-bold cursor-pointer flex relative">
+            <span className="text-purple-500">B</span>hoomi &nbsp;
             <span className="sm:block hidden"> </span>
           </p>
         </Link>
