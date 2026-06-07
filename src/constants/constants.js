@@ -4,106 +4,50 @@ import {
   web,
   git,
   initialLetterLogo,
+  python,
+  pandas,
+  numpy,
+  mysql,
+  sklearn,
+  tensorflow,
+  vscode,
+  kaggle,
+  github2,
+  powerbi,
+  excel,
+  creditwise,
+  ipl,
 } from "../assets";
 
 const initialLetterIcon = initialLetterLogo;
 const remainingLetters = "hoomi";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "skills",
-    title: "Skills",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "skills", title: "Skills" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  {
-    title: "AI Engineer",
-    icon: web,
-  },
-  {
-    title: "Data Analyst",
-    icon: mobile,
-  },
-  {
-    title: "ML Developer",
-    icon: backend,
-  },
+  { title: "AI Engineer", icon: web },
+  { title: "Data Analyst", icon: mobile },
+  { title: "ML Developer", icon: backend },
 ];
 
 const technologies = [
-  {
-    name: "Python",
-    icon: git,
-  },
-  {
-    name: "SQL",
-    icon: git,
-  },
-  {
-    name: "Power BI",
-    icon: git,
-  },
-  {
-    name: "Machine Learning",
-    icon: git,
-  },
-  {
-    name: "EDA",
-    icon: git,
-  },
-  {
-    name: "Pandas",
-    icon: git,
-  },
-  {
-    name: "NumPy",
-    icon: git,
-  },
-  {
-    name: "Scikit-learn",
-    icon: git,
-  },
-  {
-    name: "Matplotlib",
-    icon: git,
-  },
-  {
-    name: "Seaborn",
-    icon: git,
-  },
-  {
-    name: "Jupyter",
-    icon: git,
-  },
-  {
-    name: "Excel",
-    icon: git,
-  },
-  {
-    name: "Git",
-    icon: git,
-  },
-  {
-    name: "VS Code",
-    icon: git,
-  },
-  {
-    name: "Streamlit",
-    icon: git,
-  },
+  { name: "Python", icon: python },
+  { name: "SQL", icon: mysql },
+  { name: "Pandas", icon: pandas },
+  { name: "NumPy", icon: numpy },
+  { name: "Scikit-learn", icon: sklearn },
+  { name: "TensorFlow", icon: tensorflow },
+  { name: "Power BI", icon: powerbi },
+  { name: "Excel", icon: excel },
+  { name: "Kaggle", icon: kaggle },
+  { name: "GitHub", icon: github2 },
+  { name: "VS Code", icon: vscode },
+  { name: "Git", icon: git },
 ];
 
 const projects = [
@@ -118,28 +62,13 @@ const projects = [
       "Model evaluation with accuracy metrics and visualizations.",
     ],
     tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Scikit-learn",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Machine Learning",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Pandas",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "EDA",
-        color: "purple-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Scikit-learn", color: "green-text-gradient" },
+      { name: "Machine Learning", color: "pink-text-gradient" },
+      { name: "Pandas", color: "orange-text-gradient" },
+      { name: "EDA", color: "purple-text-gradient" },
     ],
-    image: web,
+    image: creditwise,
     source_code_link: "https://github.com/Bhoomi-1401/creditwise-loan-system",
     live_link: "https://github.com/Bhoomi-1401/creditwise-loan-system",
   },
@@ -154,28 +83,13 @@ const projects = [
       "Data cleaning and transformation pipeline.",
     ],
     tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Power BI",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Data Analysis",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Visualization",
-        color: "purple-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "SQL", color: "green-text-gradient" },
+      { name: "Power BI", color: "pink-text-gradient" },
+      { name: "Data Analysis", color: "orange-text-gradient" },
+      { name: "Visualization", color: "purple-text-gradient" },
     ],
-    image: mobile,
+    image: ipl,
     source_code_link: "https://github.com/Bhoomi-1401/IPL-Business-Intelligence-Analysis",
     live_link: "https://github.com/Bhoomi-1401/IPL-Business-Intelligence-Analysis",
   },

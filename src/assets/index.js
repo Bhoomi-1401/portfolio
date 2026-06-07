@@ -31,6 +31,24 @@ import prisma from "./tech/prisma.svg";
 import trpc from "./tech/trpc.svg";
 import postgresql from "./tech/postgresql.png";
 
+// New AI/ML icons
+import python from "./tech/python.svg";
+import pandas from "./tech/pandas-svg.svg";
+import numpy from "./tech/numpy-original.svg";
+import mysql from "./tech/mysql-original.svg";
+import sklearn from "./tech/Scikit_learn_logo_small.svg";
+import tensorflow from "./tech/tensorflow.svg";
+import vscode from "./tech/vscode.svg";
+import kaggle from "./tech/kaggle.svg";
+import github2 from "./tech/github2.svg";
+import powerbi from "./tech/powerbi.svg";
+import excel from "./tech/excel.png";
+
+// Project images
+import creditwise from "./creditwise.png";
+import ipl from "./ipl.png";
+
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -43,7 +61,6 @@ import inkSync from "./ink.png";
 import tracker from "./tracker.png";
 import socialSphere from "./socialSphere.png";
 import vega from "./vega.png";
-
 import rocket from "./rocket.png";
 
 export {
@@ -90,4 +107,17 @@ export {
   prisma,
   trpc,
   postgresql,
+  python,
+  pandas,
+  numpy,
+  mysql,
+  sklearn,
+  tensorflow,
+  vscode,
+  kaggle,
+  github2,
+  powerbi,
+  excel,
+  creditwise,
+  ipl,
 };
