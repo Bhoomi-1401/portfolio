@@ -40,8 +40,8 @@ const Contact = () => {
     try {
     emailjs
       .send(
-        process.env.SERVICE_ID,
-        process.env.TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Bhoomi Thakur",
@@ -49,7 +49,7 @@ const Contact = () => {
           to_email: "bhoomi.thakur168@gmail.com",
           message: form.message,
         },
-        process.env.PUBLIC_KEY
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
