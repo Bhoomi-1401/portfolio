@@ -1,10 +1,16 @@
-# Interactive 3D Animated Portfolio
+# Bhoomi Thakur | AI Engineer Portfolio
 
-A modern, interactive portfolio website built with Next.js,
+A modern, interactive 3D animated portfolio website built with Next.js, Three.js, Framer Motion, and GSAP.
 
-https://github.com/himanshu8443/3D-Portfolio/assets/99420590/6f11c9db-5f32-41e8-94f9-cbf52be8553e
+## 🚀 Live Demo
 
-## Tech Stack
+[https://portfolio-seven-drab-98.vercel.app](https://portfolio-seven-drab-98.vercel.app)
+
+## 👩‍💻 About Me
+
+I'm Bhoomi Thakur, a 3rd year AI Engineering student at SAGE University, Indore. Passionate about Machine Learning, Data Analysis and building intelligent systems using Python, SQL, and Power BI.
+
+## 🛠 Tech Stack
 
 - **Framework:** Next.js 16
 - **3D Graphics:** Three.js, React Three Fiber, React Three Drei
@@ -13,113 +19,51 @@ https://github.com/himanshu8443/3D-Portfolio/assets/99420590/6f11c9db-5f32-41e8-
 - **UI Components:** React Icons, React Type Animation
 - **Smooth Scrolling:** Lenis, Locomotive Scroll
 
-## Prerequisites
+## 💼 Projects
 
-Before you begin, ensure you have the following installed:
+### CreditWise Loan System
+A machine learning web app that predicts loan approvals using classification algorithms.
+- **Tech:** Python, Scikit-learn, Machine Learning, Pandas, EDA
+- **GitHub:** [View Project](https://github.com/Bhoomi-1401/creditwise-loan-system)
 
-- Node.js (version 18.0 or higher)
-- npm, yarn, or pnpm package manager
+### IPL Business Intelligence Analysis
+End-to-end IPL Performance Analytics and Forecasting Dashboard.
+- **Tech:** Python, SQL, Power BI, Data Analysis
+- **GitHub:** [View Project](https://github.com/Bhoomi-1401/IPL-Business-Intelligence-Analysis)
 
-## Installation
+## 🧠 Skills
+
+- Python | SQL | Power BI
+- Machine Learning | EDA | Pandas | NumPy
+- Scikit-learn | TensorFlow | Matplotlib
+- Git | GitHub | Jupyter | VS Code
+
+## 📦 Installation
 
 1. Clone the repository:
-
 ```bash
-git clone https://github.com/himanshu8443/Portfolio.git
+git clone https://github.com/Bhoomi-1401/portfolio.git
 cd portfolio
 ```
 
 2. Install dependencies:
-
 ```bash
 npm install
-# or
-yarn install
-# or
-pnpm install
 ```
 
-3. Set up environment variables (if needed for EmailJS):
-   Create a `.env.local` file in the root directory and add your EmailJS credentials:
-
-```
-EMAILJS_SERVICE_ID=your_service_id (get it from www.emailjs.com)
-EMAILJS_TEMPLATE_ID=your_template_id
-EMAILJS_PUBLIC_KEY=your_public_key
-```
-
-## Running the Project
-
-### Development Mode
-
-Run the development server:
-
+3. Run the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Production Build
+## 📬 Contact
 
-Build the application for production:
+- **GitHub:** [Bhoomi-1401](https://github.com/Bhoomi-1401)
+- **LinkedIn:** [Bhoomi Thakur](https://www.linkedin.com/in/bhoomi-thakur-0301aa330/)
+- **Email:** bhoomi.thakur168@gmail.com
 
-```bash
-npm run build
-# or
-yarn build
-# or
-pnpm build
-```
+## 🙏 Credits
 
-Start the production server:
-
-```bash
-npm start
-# or
-yarn start
-# or
-pnpm start
-```
-
-## Project Structure
-
-```
-portfolio/
-├── src/
-│   ├── app/              # Next.js app directory
-│   │   ├── layout.js     # Root layout
-│   │   ├── page.js       # Home page
-│   │   └── globals.css   # Global styles
-│   ├── components/       # React components
-│   │   ├── canvas/       # 3D canvas components
-│   │   ├── hoc/          # Higher-order components
-│   │   └── ...           # Other components
-│   ├── constants/        # Constants and configuration
-│   ├── assets/           # Images and static assets
-│   └── utils/            # Utility functions
-├── public/               # Public static files
-└── ...                   # Config files
-```
-
-## Customization
-
-1. **Update Personal Information:** Edit [src/constants/constants.js](src/constants/constants.js) to add your personal details, projects, and experience.
-
-2. **Add/Remove Sections:** Modify the [src/app/page.js](src/app/page.js) file to include or exclude sections such as About, Projects, Skills, Testimonials, Experience, and Contact.
-
-3. **Modify Components:** Customize individual components in the [src/components](src/components) directory.
-
-4. **Styling:** Adjust colors and styles in [tailwind.config.js](tailwind.config.js) and [src/app/globals.css](src/app/globals.css).
-
-## License
-
-This project is open source and available under the MIT License.
-
-## Contact
-
-For questions or support, please open an issue in the GitHub repository.
+Original template by [himanshu8443](https://github.com/himanshu8443/Portfolio)
