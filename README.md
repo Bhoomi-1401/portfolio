@@ -64,6 +64,3 @@ npm run dev
 - **LinkedIn:** [Bhoomi Thakur](https://www.linkedin.com/in/bhoomi-thakur-0301aa330/)
 - **Email:** bhoomi.thakur168@gmail.com
 
-## 🙏 Credits
-
-Original template by [himanshu8443](https://github.com/himanshu8443/Portfolio)
