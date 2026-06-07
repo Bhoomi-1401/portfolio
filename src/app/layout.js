@@ -14,6 +14,19 @@ const poppins = Poppins({
 export const metadata = {
   title: "Bhoomi Thakur",
   description: "Bhoomi Thakur is an AI Engineer, Data Analyst and Machine Learning enthusiast.",
+  openGraph: {
+    title: "Bhoomi Thakur | AI Engineer",
+    description: "AI Engineer | Data Analyst | Machine Learning | Python | SQL | Power BI",
+    images: ["/og-image.png"],
+    url: "https://portfolio-seven-drab-98.vercel.app",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Bhoomi Thakur | AI Engineer",
+    description: "AI Engineer | Data Analyst | Machine Learning | Python | SQL | Power BI",
+    images: ["/og-image.png"],
+  },
 };
 
 export const viewport = {
