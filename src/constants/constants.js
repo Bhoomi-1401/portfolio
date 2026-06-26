@@ -17,6 +17,9 @@ import {
   excel,
   creditwise,
   ipl,
+  socialpulse,
+  insurancePredictor,
+  smartcart,
 } from "../assets";
 
 const initialLetterIcon = initialLetterLogo;
@@ -52,7 +55,30 @@ const technologies = [
 
 const projects = [
   {
+    name: "SocialPulse — Brand Intelligence Platform",
+    statBadge: "94% SENTIMENT ACCURACY",
+    description:
+      "An end-to-end ML platform analyzing real customer sentiment across 10 major Indian startups, built entirely from live-scraped Google Play Store reviews — combining sentiment classification, brand clustering, and automated crisis detection in one dashboard.",
+    features: [
+      "Scraped and cleaned 500K+ live reviews down to 475,220 records across 10 brands (Zomato, Swiggy, Blinkit, CRED, Zepto, Meesho, PhonePe, Paytm, Ola, Uber).",
+      "Sentiment classifier (Naive Bayes + TF-IDF) reaching 94% accuracy on held-out test data.",
+      "K-Means brand clustering (k=3, Elbow Method) grouping brands into Top Performers, Middle Ground, and Struggling, visualized via PCA.",
+      "Isolation Forest anomaly detection flags abnormal negative-sentiment spikes per brand in near real-time.",
+    ],
+    tags: [
+      { name: "NLP", color: "blue-text-gradient" },
+      { name: "Scikit-learn", color: "green-text-gradient" },
+      { name: "Clustering", color: "pink-text-gradient" },
+      { name: "Anomaly Detection", color: "orange-text-gradient" },
+      { name: "Streamlit", color: "purple-text-gradient" },
+    ],
+    image: socialpulse,
+    source_code_link: "https://github.com/Bhoomi-1401/socialpulse-brand-intelligence",
+    live_link: "https://socialpulse-bhoomi.streamlit.app/",
+  },
+  {
     name: "CreditWise Loan System",
+    statBadge: "LIVE DEMO",
     description:
       "A machine learning web app that predicts loan approvals using classification algorithms with data preprocessing and feature engineering.",
     features: [
@@ -73,7 +99,50 @@ const projects = [
     live_link: "https://github.com/Bhoomi-1401/creditwise-loan-system",
   },
   {
+    name: "SmartCart — Customer Segmentation",
+    statBadge: "4 SEGMENTS · 2,240 CUSTOMERS",
+    description:
+      "Segmented 2,240 retail customers into 4 actionable behavioral groups using KMeans and Agglomerative Clustering, with PCA-based dimensionality reduction to surface high-value customer insights.",
+    features: [
+      "Unsupervised clustering of 2,240 customers into 4 behavioral segments (High Spenders, Frequent Bargain Shoppers, Occasional Buyers, Low Engagement).",
+      "Compared KMeans and Agglomerative Clustering to validate segment stability.",
+      "PCA dimensionality reduction for 2D cluster visualization.",
+      "Segment profiles translated into actionable retail/marketing insights.",
+    ],
+    tags: [
+      { name: "KMeans", color: "blue-text-gradient" },
+      { name: "PCA", color: "green-text-gradient" },
+      { name: "Scikit-learn", color: "pink-text-gradient" },
+      { name: "Agglomerative", color: "orange-text-gradient" },
+    ],
+    image: smartcart,
+    source_code_link: "https://github.com/Bhoomi-1401/Smart-cart-customer-clustering",
+    live_link: "https://github.com/Bhoomi-1401/Smart-cart-customer-clustering",
+  },
+  {
+    name: "Insurance Premium Predictor",
+    statBadge: "91.04% BEST MODEL ACCURACY",
+    description:
+      "A classification system that predicts whether a customer's insurance premium category will be Low, Medium, or High based on health and lifestyle data, benchmarking 13 different ML algorithms.",
+    features: [
+      "Benchmarked 13 classification algorithms (SVM, Stacking, Gradient Boosting, XGBoost, and more) — SVM and Stacking led at 91.04% accuracy.",
+      "Engineered a smoker_obese interaction feature combining smoking status and BMI > 30 to sharpen risk separation.",
+      "EDA surfaced that smokers pay roughly 4x more on average than non-smokers.",
+      "Deployed as an interactive Streamlit prediction app.",
+    ],
+    tags: [
+      { name: "XGBoost", color: "blue-text-gradient" },
+      { name: "Feature Engineering", color: "green-text-gradient" },
+      { name: "Classification", color: "pink-text-gradient" },
+      { name: "Streamlit", color: "orange-text-gradient" },
+    ],
+    image: insurancePredictor,
+    source_code_link: "https://github.com/Bhoomi-1401/insurance-premium-predictor",
+    live_link: "https://bhoomi-insurance-predictor.streamlit.app/",
+  },
+  {
     name: "IPL Business Intelligence Analysis",
+    statBadge: "POWER BI DASHBOARD",
     description:
       "End-to-end IPL Performance Analytics and Forecasting Dashboard using Python and SQL for data processing and Power BI for interactive visualizations.",
     features: [

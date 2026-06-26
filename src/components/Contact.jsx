@@ -71,10 +71,35 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
+        <div className="flex flex-wrap gap-4 mt-6">
+          <a
+            href="mailto:bhoomi.thakur168@gmail.com"
+            className="text-sm font-semibold text-secondary border border-secondary rounded-full px-4 py-2 hover:text-white hover:border-white transition-colors duration-200"
+          >
+            ✉ bhoomi.thakur168@gmail.com
+          </a>
+          <a
+            href="https://www.linkedin.com/in/bhoomi-thakur-0301aa330/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-semibold text-secondary border border-secondary rounded-full px-4 py-2 hover:text-white hover:border-white transition-colors duration-200"
+          >
+            🔗 LinkedIn
+          </a>
+          <a
+            href="https://github.com/Bhoomi-1401"
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm font-semibold text-secondary border border-secondary rounded-full px-4 py-2 hover:text-white hover:border-white transition-colors duration-200"
+          >
+            ⌥ GitHub
+          </a>
+        </div>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-10 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>

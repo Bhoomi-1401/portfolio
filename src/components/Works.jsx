@@ -21,6 +21,7 @@ const ProjectCard = ({
   source_code_link,
   features,
   live_link,
+  statBadge,
 }) => {
   const refLiveLink = React.useRef(null);
   const refSourceCodeLink = React.useRef(null);
@@ -58,9 +59,14 @@ const ProjectCard = ({
 
   return (
     <div className="bg-tertiary bg-opacity-70 p-5 rounded-2xl gap-4">
-      <h3 className="text-white font-bold text-[28px] flex gap-2 items-center my-2 ">
+      <h3 className="text-white font-bold text-[28px] flex gap-2 items-center my-2 flex-wrap">
         {name}
         <HiLink size={15} />
+        {statBadge && (
+          <span className="text-[11px] font-bold tracking-wider text-[#915EFF] bg-[#915EFF22] border border-[#915EFF55] rounded-full px-3 py-1 ml-2">
+            {statBadge}
+          </span>
+        )}
       </h3>
       <div className="lg:flex gap-10 lg:flex-row lg:justify-between lg:items-center">
         <Tilt className=" lg:w-[90%] lg:h-[90%] w-full h-full">

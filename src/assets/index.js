@@ -47,6 +47,9 @@ import excel from "./tech/excel.png";
 // Project images
 import creditwise from "./creditwise.png";
 import ipl from "./ipl.png";
+import socialpulse from "./socialpulse.png";
+import insurancePredictor from "./insurance.png";
+import smartcart from "./smartcart.png";
 
 
 import meta from "./company/meta.png";
@@ -120,4 +123,7 @@ export {
   excel,
   creditwise,
   ipl,
+  socialpulse,
+  insurancePredictor,
+  smartcart,
 };
